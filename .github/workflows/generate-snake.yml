@@ -1,9 +1,12 @@
 name: Generate Snake
 
 on:
-  schedule: # Запуск каждые 12 часов
-    - cron: "0 */12 * * *"
-  workflow_dispatch: # Возможность запустить вручную
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -18,7 +21,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push Snake to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
