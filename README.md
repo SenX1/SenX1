@@ -1,4 +1,4 @@
-# Hi, I'm Arseniy Vagin 👋
+# Hi, I'm Arseniy👋
 
 I am an AI Engineering undergraduate student at ITMO University (St. Petersburg), focusing on classical machine learning, geospatial data, and time-series modeling. 
 
