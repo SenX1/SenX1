@@ -1,15 +1,16 @@
 # Hi, I'm Arseniy👋
 
-I am an AI Engineering undergraduate student at ITMO University (St. Petersburg), focusing on classical machine learning, computer vision, and time-series/physical modeling.
+I am an AI Engineering undergraduate student at ITMO University (St. Petersburg), focusing on classical machine learning, geospatial data analysis, and time-series forecasting.
 
-I enjoy developing robust, end-to-end machine learning pipelines that combine deep domain expertise (geospatial, meteorological, and physical processes) with modern architectures.
+I enjoy translating domain-specific physical, geographic, and meteorological processes into robust, high-performance tabular feature pipelines for ML models.
 
-### Key Projects & Hackathon Solutions
+### Key Projects & Solutions
 
-*   **[National Technological Olympiad (NTI) 2024 — Absolute Winner](https://clck.ru/3TstKm)** 
-    *   *Profile:* Analysis of Cosmic Images & Geospatial Data (AKSiGD)
-    *   *Role:* Geospatial Analyst & Team Lead (CGM Team). Designed the spatial and multispectral feature engineering pipelines, translating geographic domain knowledge into features for gradient boosting models [1.1].
-*   **[Azov Wind Power Plant Generation Forecasting](https://github.com/SenX1/Train_Twins-wind-prediction)**
+*   **National Technological Olympiad (NTI) 2024 — Absolute Winner (1st Place)** 
+    *   *Profile:* Analysis of Cosmic Images & Geospatial Data (AKSiGD).
+    *   *Role:* Geospatial Analyst & Team Lead (CGM Team).
+    *   *Key tasks solved:* Reconstructed lost coordinate reference systems (CRS/MSK-68), vectorized agricultural fields from Sentinel-2 satellite imagery, calculated terrain morphometry metrics (depth/density of erosion), and built NDVI time-series classification pipelines (unsupervised k-means clustering and supervised template matching via Least Squares Method). Implemented regression-based crop yield forecasting [1.1].
+*   **[Wind Power Plant Generation Forecasting](https://github.com/SenX1/Train_Twins-wind-prediction)**
     *   *Task:* Forecasting electricity generation for wind farm using advanced physical feature engineering.
     *   *Solution:* Built an ensemble of 11 CatBoost models with Ridge stacking and isotonic calibration, incorporating air density, wind shear, and local coastal meteorological effects (breeze, icing).
 *   **[Boxing Video Action Recognition & Attribute Classification](https://github.com/SenX1/boxing-hack--)**
@@ -19,8 +20,8 @@ I enjoy developing robust, end-to-end machine learning pipelines that combine de
 ### Tech Stack & Tools
 
 *   **Languages:** Python, SQL, C++, Bash
-*   **ML & Tabular:** CatBoost, LightGBM, Scikit-learn, Pandas, Polars, NumPy, Optuna
-*   **CV & Spatial:** YOLOv11 Pose, PyTorch (TCN, MLP), OpenCV, GeoPandas, Rasterio
+*   **ML & Tabular:** CatBoost, LightGBM, XGBoost, Scikit-learn, Pandas, Polars, NumPy, Optuna
+*   **CV & Spatial:** YOLOv11 Pose, PyTorch (TCN, MLP), OpenCV, GeoPandas, Rasterio, QGIS
 *   **Infrastructure:** Git, Docker, FastAPI, PostgreSQL
 
 ---
