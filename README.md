@@ -6,7 +6,7 @@ I enjoy developing robust, end-to-end machine learning pipelines that combine de
 
 ### Key Projects & Hackathon Solutions
 
-*   **National Technological Olympiad (NTI) 2024 — Absolute Winner** 
+*   **[National Technological Olympiad (NTI) 2024 — Absolute Winner](https://clck.ru/3TstKm)** 
     *   *Profile:* Analysis of Cosmic Images & Geospatial Data (AKSiGD)
     *   *Role:* Geospatial Analyst & Team Lead (CGM Team). Designed the spatial and multispectral feature engineering pipelines, translating geographic domain knowledge into features for gradient boosting models [1.1].
 *   **[Azov Wind Power Plant Generation Forecasting](https://github.com/SenX1/Train_Twins-wind-prediction)**
