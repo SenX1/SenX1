@@ -19,10 +19,26 @@ I enjoy translating domain-specific physical, geographic, and meteorological pro
 
 ### Tech Stack & Tools
 
-*   **Languages:** Python, SQL, C++, Bash
-*   **ML & Tabular:** CatBoost, LightGBM, XGBoost, Scikit-learn, Pandas, Polars, NumPy, Optuna
-*   **CV & Spatial:** YOLOv11 Pose, PyTorch (TCN, MLP), OpenCV, GeoPandas, Rasterio, QGIS
-*   **Infrastructure:** Git, Docker, FastAPI, PostgreSQL
+**Languages:**  
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Shell_Bash-89E051?style=for-the-badge&logo=gnu-bash&logoColor=black" />
+
+**ML & Data Science:**  
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
+**CV & Geospatial:**  
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" /> <img src="https://img.shields.io/badge/YOLO_v11-00FFE0?style=for-the-badge&logo=yolo&logoColor=black" /> <img src="https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=geopandas&logoColor=white" />
+
+**Infrastructure & Databases:**  
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+
+### GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SenX1&show_icons=true&theme=dracula&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SenX1&layout=compact&theme=dracula&hide=html,css,jupyter" width="48%" />
+</p>
+
 
 ---
 *Feel free to reach out via Telegram: [@quitepeaky](https://t.me/quitepeaky) or email: arseniyjvagin@gmail.com*
