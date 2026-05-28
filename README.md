@@ -40,5 +40,14 @@ I enjoy translating domain-specific physical, geographic, and meteorological pro
 </p>
 
 
+### Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SenX1/SenX1/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SenX1/SenX1/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/SenX1/SenX1/output/github-contribution-grid-snake.svg">
+</picture>
+
+
 ---
 *Feel free to reach out via Telegram: [@quitepeaky](https://t.me/quitepeaky) or email: arseniyjvagin@gmail.com*
