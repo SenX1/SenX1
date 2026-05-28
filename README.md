@@ -35,8 +35,8 @@ I enjoy translating domain-specific physical, geographic, and meteorological pro
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SenX1&show_icons=true&theme=dracula&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SenX1&layout=compact&theme=dracula&hide=html,css,jupyter" width="48%" />
+  <img src="https://github-readme-stats.shion.dev/api?username=SenX1&show_icons=true&theme=dracula&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=SenX1&layout=compact&theme=dracula&hide=html,css,jupyter" width="48%" />
 </p>
 
 
