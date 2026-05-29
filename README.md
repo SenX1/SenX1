@@ -31,23 +31,5 @@ I enjoy translating domain-specific physical, geographic, and meteorological pro
 **Infrastructure & Databases:**  
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
-
-### GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=SenX1&show_icons=true&theme=dracula&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=SenX1&layout=compact&theme=dracula&hide=html,css,jupyter" width="48%" />
-</p>
-
-
-### Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SenX1/SenX1/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SenX1/SenX1/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/SenX1/SenX1/output/github-contribution-grid-snake.svg">
-</picture>
-
-
 ---
 *Feel free to reach out via Telegram: [@quitepeaky](https://t.me/quitepeaky) or email: arseniyjvagin@gmail.com*
