@@ -1,63 +1,36 @@
 # Hi, I'm Arseniy 👋
 
-I'm a third-year **Artificial Intelligence Engineering** student at **ITMO University**, focused primarily on classical machine learning, tabular data, feature engineering, and time-series problems.
+I'm a third-year AI Engineering student at ITMO University in St. Petersburg, focused on classical ML, tabular data, feature engineering and time-series forecasting.
 
-I also have hands-on experience with **geospatial analytics, satellite imagery, and environmental data**, and I enjoy using domain knowledge to design useful features for applied ML problems.
+I work on reproducible ML pipelines, from data preparation and validation to model tracking and serving. I'm looking for paid remote junior ML / Data Science opportunities.
 
-## Selected Projects
+## Selected projects
+
+### [FX Predictor AI - USD/EUR Forecasting Service](https://github.com/Vladimir-119/fx-predictor-ai)
+Joint project with Vladimir Volkov: a reproducible forecasting service built with FastAPI, PostgreSQL, MLflow, RustFS, RabbitMQ/FastStream and Docker Compose.
+
+- Compared six model configurations using three expanding-window validation folds and a 63-observation chronological holdout.
+- Regularized CatBoost reduced MAE versus the last-rate baseline by **0.84% on CV and 2.01% on holdout** (0.00193443 vs 0.00197407 EUR per USD). These are preliminary historical results; the holdout had been inspected during research and a new period is needed for confirmation.
+- Shared lag and rolling feature logic between training and inference; tracked data snapshots, experiments and registered models in MLflow, with explicit candidate-to-champion promotion.
+- Added asynchronous inference, task status retrieval, bounded queues, retries and idempotent PostgreSQL result storage; integrated stale-data checks and GitHub Actions CI.
 
 ### [Wind Power Generation Forecasting](https://github.com/SenX1/Train_Twins-wind-prediction)
+Built an ensemble of 11 CatBoost models with Ridge stacking for a 90.09 MW wind farm. Features captured air density, wind shear, lagged observations and rolling statistics; validation used TimeSeriesSplit with a temporal gap.
 
-Built a forecasting pipeline for a 90.09 MW wind farm using an ensemble of **11 CatBoost models with Ridge stacking**.
+- Q1 2026 leaderboard: 7.987% normalized MAE.
+- Separate forecasting period: 2nd on the private leaderboard, approximately 2.7 MW MAE.
 
-- engineered meteorological features including wind shear, air density, and cubic wind-speed transformations;
-- created lagged and rolling time-series features;
-- used gap-aware `TimeSeriesSplit` validation;
-- achieved **7.987% MAE relative to installed capacity**.
+### National Technological Olympiad 2024 - Geospatial Data Analysis
+1st place, team CGM. Worked with Sentinel-2 imagery, QGIS, coordinate system reconstruction, FABDEM terrain features and NDVI time series for crop analysis and yield forecasting.
 
-**Stack:** Python · CatBoost · scikit-learn · Pandas · Time Series
+## Tools
 
----
-### National Technological Olympiad 2024 — 1st Place
+- **ML:** Python, CatBoost, scikit-learn, Ridge, Optuna, SHAP, model validation, probability calibration, feature engineering.
+- **Data:** pandas, NumPy, Polars, SQL, PostgreSQL.
+- **ML engineering:** MLflow, FastAPI, Pydantic, Docker, Docker Compose, Git, RustFS (S3-compatible storage), RabbitMQ, FastStream, GitHub Actions, pytest, Ruff, uv.
+- **Geospatial:** GeoPandas, QGIS, Rasterio, CRS.
 
-Won **1st place in the National Technological Olympiad in Geospatial Data Analysis** as part of Team CGM.
 
-Worked with:
+## Contact
 
-- Sentinel-2 multispectral imagery;
-- coordinate reference systems and agricultural vector data;
-- FABDEM elevation data and terrain morphology;
-- temporal NDVI analysis;
-- crop classification and yield forecasting.
-
-**Stack:** Python · GeoPandas · QGIS · Rasterio · Classical ML
-
----
-
-### [Boxing Action Recognition](https://github.com/SenX1/boxing-hack--)
-
-Built a multi-stage computer-vision pipeline for detecting and classifying boxing actions from video.
-
-- extracted pose keypoints with **YOLOv11 Pose**;
-- tracked fighters using **BotSort**;
-- engineered motion features such as joint angles and wrist velocities;
-- trained temporal event detectors with **TCN models in PyTorch** and an MLP-based attribute classifier.
-
-**Stack:** Python · PyTorch · YOLO · OpenCV · TCN
-
----
-
-## Tech Stack
-
-**Machine Learning:** CatBoost · LightGBM · XGBoost · scikit-learn · PyTorch  
-**Data:** Pandas · Polars · NumPy · SQL · PostgreSQL  
-**Computer Vision:** OpenCV · YOLO Pose  
-**Geospatial:** GeoPandas · QGIS · Rasterio  
-**Tools:** Git · Docker · FastAPI
-
-## Currently Looking For
-
-I'm interested in **remote Machine Learning / Data Science internships/junior positions, part-time roles, and applied ML projects**, particularly involving tabular data, forecasting, energy, environmental, or geospatial problems.
-
-**Email:** arseniy.antonovich.v@gmail.com  
-**LinkedIn:** [linkedin.com/in/senx](https://www.linkedin.com/in/senx/)
+[Telegram](https://t.me/quitepeaky) · [LinkedIn](https://www.linkedin.com/in/senx) · [Email](mailto:arseniyjvagin@gmail.com)
